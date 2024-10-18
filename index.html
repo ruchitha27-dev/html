@@ -1,0 +1,62 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form </title>
+</head>
+<body>
+<h1>Patient Registration Form</h1>
+<h2>Patient details:</h2>
+<label>Patient Name:</label><br><br>
+<form>
+    <input type="text" placeholder="first"/>
+     <input type="text" placeholder="last"/> <br>
+    <br>
+     <label>Age:</label>
+    <input type = "number"/>
+    <label>Sex:</label>
+    <input type="radio" name="Gender" value = "male"/> male
+    <input type="radio" name="Gender" value = "female"/> female
+    <input type="radio" name="Gender" value = "other"/>other <br><br>
+    <label>Date of Birth:</label>
+    <input type="date"/><br><br>
+    <label>Phone Number:</label>
+    
+    <input type = "tel" minlength="10" maxlength="10" required/>
+    <br><br>
+
+    <label>Address:</label> &nbsp &nbsp &nbsp
+    
+    <input type = "text"/>
+    <br><br> 
+
+    <label>Email:</label>
+    
+    <input type = "text"/>
+    <br><br>
+    <label>Password:</label>
+    
+    <input type = "password"/><br>
+    <br>
+    <h2>Medication History:</h2>
+    <label>Condition:</label>
+
+    
+    <input type = "text"/><br>
+    <br>
+    <label>Name of the Medication:</label>
+    
+    <input type = "text"/><br>
+    <br>
+    <label>Dosage:</label>
+    
+    <input type = "text"/><br><br>
+    <h2>Insurance Details:</h2>
+    <label>Insurance policy:</label>
+    
+    <input type = "text"/><br><br>
+    <input type ="button" value = "submit"/>
+</form>
+</body>
+</html>
